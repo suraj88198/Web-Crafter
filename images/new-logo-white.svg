@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 436.27 83.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        font-size: 21.45px;
+        letter-spacing: .13em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+        font-family: Gugi-Regular, Gugi;
+      }
+
+      .cls-4 {
+        font-size: 56px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="35.75" x2="116.18" y2="35.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ee3779"/>
+      <stop offset="1" stop-color="#f6894b"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <polygon class="cls-1" points="47.69 43.9 54.62 53.59 43.68 71.5 0 0 41.79 0 72.56 50.38 96.64 10.96 77.99 10.96 84.71 21.95 77.9 31.83 58.45 0 116.18 0 72.56 71.41 35.64 10.96 19.54 10.96 43.68 50.47 47.69 43.9"/>
+    <text class="cls-4" transform="translate(128.5 48.59)"><tspan x="0" y="0">WebCrafter</tspan></text>
+    <text class="cls-3" transform="translate(168.6 79.45)"><tspan x="0" y="0">DIGITAL AGENCY</tspan></text>
+    <line class="cls-2" x1="137.63" y1="70.85" x2="164.36" y2="70.85"/>
+    <line class="cls-2" x1="382.38" y1="70.85" x2="409.11" y2="70.85"/>
+  </g>
+</svg>

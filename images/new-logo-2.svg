@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444.83 123.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-size: 57px;
+        letter-spacing: -.05em;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: Gugi-Regular, Gugi;
+      }
+
+      .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        font-size: 21.45px;
+        letter-spacing: .13em;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-3" points="63.19 71.28 70.12 80.97 59.18 98.88 15.5 27.38 57.29 27.38 88.06 77.76 112.14 38.34 93.49 38.34 100.21 49.33 93.4 59.21 73.96 27.38 131.68 27.38 88.06 98.78 51.14 38.34 35.04 38.34 59.18 77.85 63.19 71.28"/>
+  <text class="cls-2" transform="translate(144.2 75.84)"><tspan x="0" y="0">WebCrafter</tspan></text>
+  <text class="cls-4" transform="translate(184.3 106.7)"><tspan x="0" y="0">DIGITAL AGENCY</tspan></text>
+  <line class="cls-1" x1="153.33" y1="98.1" x2="180.06" y2="98.1"/>
+  <line class="cls-1" x1="398.08" y1="98.1" x2="424.81" y2="98.1"/>
+</svg>
