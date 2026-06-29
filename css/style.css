@@ -1156,7 +1156,7 @@ img {
 
 .header .menu>ul>li {
     display: inline-flex;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .header .menu>ul>li>a {
@@ -4077,7 +4077,7 @@ a.btgs {
 
 .switch-wrapper input:checked+.slider:before {
     content: "";
-    background: url(../images/moon.svg) #2196f3 no-repeat center center;
+    background: url(../images/sun.svg) #2196f3 no-repeat center center;
 }
 
 .switch-wrapper .slider.round:before {

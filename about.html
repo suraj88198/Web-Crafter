@@ -19,10 +19,14 @@
 <link href="css/colormode.css" rel="stylesheet">
 </head>
 <body>
+<div class="preloader">
+<div class="preloader_inner">0%</div>
+<div class="loaderlogo"><img src="images/new-logo-white.svg" alt="logo"></div>
+</div>
 <header class="header animation">
   <div class="container">
     <div class="wrapper">
-      <div class="header-item-left"> <a href="./suraj.html" class="brandlogo"> <img src="images/logo-white.svg" alt="logo" class="light"> <img src="images/logo-black.svg" alt="logo" class="dark"> </a> </div>
+      <div class="header-item-left"> <a href="./home.html" class="brandlogo"> <img src="images/new-logo-white.svg" alt="logo" class="light"> <img src="images/new-logo.svg" alt="logo" class="dark"> </a>  </div>
       <div class="header-item-center hic">
         <div class="overlay"></div>
         <nav class="menu animation" id="menu">
@@ -32,63 +36,10 @@
             <button type="button" class="menu-mobile-close"><i class="fa-solid fa-xmark"></i></button>
           </div>
           <ul class="menu-section">
-            <li class="menu-item-has-children"> <a href="#.">Demo <i class="fa-solid fa-angle-down"></i></a>
-              <div class="menu-subs menu-column-1">
-                <ul>
-                  <li><a href="./suraj.html">All Demo</a></li>
-                  <li><a href="./marketing-agency.html">Marketing Aggency</a></li>
-                  <li><a href="./web-design.html">Web Design</a></li>
-                  <li><a href="./suraj.html">App Development</a></li>
-                  <li><a href="./bussiness-startup.html">Business & Startup</a></li>
-                  <li><a href="./garphic-design.html">Graphic Design</a></li>
-                  <li><a href="./branding-agency.html">Branding Agency</a></li>
-                  <li><a href="./digital-agency.html">Digital Agency</a></li>
-                  <li><a href="./freelancer-portfolio.html">Freelancer Portfolio</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="menu-item-has-children"> <a href="#.">About Us <i class="fa-solid fa-angle-down"></i></a>
-              <div class="menu-subs menu-column-1">
-                <ul>
-                  <li><a href="./about-1.html">About Page 1</a></li>
-                  <li><a href="./about-2.html">About Page 2</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="menu-item-has-children"> <a href="#.">Services <i class="fa-solid fa-angle-down"></i></a>
-              <div class="menu-subs menu-column-1">
-                <ul>
-                  <li><a href="./services-1.html">Service Page 1</a></li>
-                  <li><a href="./services-2.html">Service Page 2</a></li>
-                  <li><a href="./services-3.html">Service Page 3</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="menu-item-has-children"> <a href="#.">Portfolio <i class="fa-solid fa-angle-down"></i></a>
-              <div class="menu-subs menu-column-1">
-                <ul>
-                  <li><a href="./portfolio-1.html">Portfolio Page 1</a></li>
-                  <li><a href="./portfolio-2.html">Portfolio Page 2</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="menu-item-has-children"> <a href="#.">Blogs <i class="fa-solid fa-angle-down"></i></a>
-              <div class="menu-subs menu-column-1">
-                <ul>
-                  <li><a href="./blog-1.html">Blog Page 1</a></li>
-                  <li><a href="./blog-2.html">Blog Page 2</a></li>
-                  <li><a href="./blog-3.html">Blog Details</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="menu-item-has-children"> <a href="#.">Contact Us <i class="fa-solid fa-angle-down"></i></a>
-              <div class="menu-subs menu-column-1">
-                <ul>
-                  <li><a href="./contact.html">Contact Page 1</a></li>
-                  <li><a href="./contact-2.html">Contact Page 2</a></li>
-                </ul>
-              </div>
-            </li>
+            <li class="menu-item-has-children"> <a href="./about.html">About Us</a></li>
+            <li class="menu-item-has-children"> <a href="./services.html">Services </a></li>
+            <li class="menu-item-has-children"> <a href="./portfolio.html">Portfolio</a></li>
+            <li class="menu-item-has-children"> <a href="./contact.html">Contact Us </a></li>
             <li class="darkmodeswitch">
               <div class="switch-wrapper">
                 <label class="switch" for="blueket">
@@ -102,7 +53,7 @@
       <div class="header-item-right headeraction">
         <ul>
           <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="menu-icon"><i class="fa-solid fa-phone"></i></a> </li>
-          <li><a href="contact-1.html" class="sw-btn sw-orange-btn header-btn">Get Started <i class="fa-solid fa-arrow-trend-up"></i></a></li>
+          <li><a href="contact.html" class="sw-btn sw-orange-btn header-btn">Get Started <i class="fa-solid fa-arrow-trend-up"></i></a></li>
           <li>
             <button type="button" class="menu-mobile-toggle"> <span></span> <span></span> <span></span> <span></span> </button>
           </li>
@@ -443,13 +394,13 @@
     </div>
   </div>
 </section>
-<footer class="footer-design-sw pt80 pb30 text-white swdarkfooter">
+<footer class="footer-design-sw pt80 pb30 bkbg2 footerbg1 black-bg-1">
   <div class="container index-up">
     <div class="row justify-content-between">
       <div class="col-lg-4">
         <div class="footer-brand-info">
-          <div class="footer-logo-sw"> <a href="#"><img src="images/logo-white.svg" alt="logo" class="light"></a> <a href="#"><img src="images/logo-white.svg" alt="logo" class="dark"></a> </div>
-          <div class="contactinkediv mt50"> <span class="linktitle">Send Us an Email:</span> <a href="/cdn-cgi/l/email-protection#99f0f7fff6d9e0f6ecebeefcfbeaf0edfcb7faf6f4"><span class="__cf_email__" data-cfemail="a3cacdc5cce3daccd6d1d4c6c1d0cad7c68dc0ccce">[email&#160;protected]</span></a> </div>
+          <div class="footer-logo-sw"> <a href="#"><img src="images/new-logo-white.svg" alt="logo" class="light"></a> <a href="#"><img src="images/new-logo.svg" alt="logo" class="dark"></a> </div>
+          <div class="contactinkediv mt50"> <span class="linktitle">Send Us an Email:</span> <a href="/cdn-cgi/l/email-protection#5b32353d341b22342e292c3e3928322f3e75383436"><span class="__cf_email__" data-cfemail="d8b1b6beb798a1b7adaaafbdbaabb1acbdf6bbb7b5">[email&#160;protected]</span></a> </div>
           <div class="contactinkediv mt30"> <span class="linktitle">Give Us a Call:</span> <a href="tel:+911234567900">91 123 4567 890</a> </div>
           <div class="social-link-sw mt40"> <span class="linktitle">Follow Us</span>
             <ul class="footer-social-sw mt10 sw-hover-2">
@@ -530,6 +481,7 @@
 <script src="js/bootstrap.bundle.min.js"></script> 
 <script src="js/blueket.plugin.js"></script> 
 <script src="js/theme.darkmode.js"></script> 
+<script src="js/preloader.js"></script> 
 <script src="js/particles.min.js"></script> 
 <script src="js/custom.js"></script>
 </body>

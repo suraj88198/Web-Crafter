@@ -19,66 +19,49 @@
 <link href="css/responsive.css" rel="stylesheet">
 </head>
 <body>
-  <header class="header animation">
-    <div class="container">
-      <div class="wrapper">
-        <div class="header-item-left"> <a href="./index.html" class="brandlogo"> <img src="images/new-logo-white.svg" alt="logo" class="light"> <img src="images/new-logo.svg" alt="logo" class="dark"> </a> </div>
-        <div class="header-item-center hic">
-          <div class="overlay"></div>
-          <nav class="menu animation" id="menu">
-            <div class="menu-mobile-header">
-              <button type="button" class="menu-mobile-arrow"><i class="fa-solid fa-angle-left"></i></button>
-              <div class="menu-mobile-title"></div>
-              <button type="button" class="menu-mobile-close"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <ul class="menu-section">
-              <li class="menu-item-has-children"> <a href="#.">Demo <i class="fa-solid fa-angle-down"></i></a>
-                <div class="menu-subs menu-column-1">
-                  <ul>
-                    <li><a href="./index.html">All Demo</a></li>
-                    <li><a href="./marketing-agency.html">Marketing Aggency</a></li>
-                    <li><a href="./web-design.html">Web Design</a></li>
-                    <li><a href="./index.html">App Development</a></li>
-                    <li><a href="./bussiness-startup.html">Business & Startup</a></li>
-                    <li><a href="./garphic-design.html">Graphic Design</a></li>
-                    <li><a href="./branding-agency.html">Branding Agency</a></li>
-                    <li><a href="./digital-agency.html">Digital Agency</a></li>
-                    <li><a href="./freelancer-portfolio.html">Freelancer Portfolio</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="menu-item-has-children"> <a href="./about_us.html">About Us</a>
-              </li>
-              <li class="menu-item-has-children"> <a href="./services.html">Services</a>
-              </li>
-              <li class="menu-item-has-children"> <a href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="menu-item-has-children"> <a href="./blog.html">Blogs</a>
-              </li>
-              <li class="menu-item-has-children"> <a href="./contact.html">Contact Us</a>
-              </li>
-              <li class="darkmodeswitch">
-                <div class="switch-wrapper">
-                  <label class="switch" for="blueket">
-                    <input type="checkbox" id="blueket" />
-                    <span class="slider round"></span> </label>
-                </div>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header-item-right headeraction">
-          <ul>
-            <li><a href="tel:8819805063" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="menu-icon"><i class="fa-solid fa-phone"></i></a></li>
-            <li><a href="contact.html" class="sw-btn sw-orange-btn header-btn">Get Started <i class="fa-solid fa-arrow-trend-up"></i></a></li>
-            <li>
-              <button type="button" class="menu-mobile-toggle"> <span></span> <span></span> <span></span> <span></span> </button>
+  <div class="preloader">
+  <div class="preloader_inner">0%</div>
+  <div class="loaderlogo"><img src="images/new-logo-white.svg" alt="logo"></div>
+</div>
+<header class="header animation">
+  <div class="container">
+    <div class="wrapper">
+      <div class="header-item-left"> <a href="./home.html" class="brandlogo"> <img src="images/new-logo-white.svg" alt="logo" class="light"> <img src="images/new-logo.svg" alt="logo" class="dark"> </a>  </div>
+      <div class="header-item-center hic">
+        <div class="overlay"></div>
+        <nav class="menu animation" id="menu">
+          <div class="menu-mobile-header">
+            <button type="button" class="menu-mobile-arrow"><i class="fa-solid fa-angle-left"></i></button>
+            <div class="menu-mobile-title"></div>
+            <button type="button" class="menu-mobile-close"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <ul class="menu-section">
+            <li class="menu-item-has-children"> <a href="./about.html">About Us</a></li>
+            <li class="menu-item-has-children"> <a href="./services.html">Services </a></li>
+            <li class="menu-item-has-children"> <a href="./portfolio.html">Portfolio</a></li>
+            <li class="menu-item-has-children"> <a href="./contact.html">Contact Us </a></li>
+            <li class="darkmodeswitch">
+              <div class="switch-wrapper">
+                <label class="switch" for="blueket">
+                  <input type="checkbox" id="blueket" />
+                  <span class="slider round"></span> </label>
+              </div>
             </li>
           </ul>
-        </div>
+        </nav>
+      </div>
+      <div class="header-item-right headeraction">
+        <ul>
+          <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="menu-icon"><i class="fa-solid fa-phone"></i></a> </li>
+          <li><a href="contact.html" class="sw-btn sw-orange-btn header-btn">Get Started <i class="fa-solid fa-arrow-trend-up"></i></a></li>
+          <li>
+            <button type="button" class="menu-mobile-toggle"> <span></span> <span></span> <span></span> <span></span> </button>
+          </li>
+        </ul>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 <div class="offcanvas offcanvas-end sidebar-offcanvas" tabindex="-1" id="offcanvasRight">
   <div class="offcanvas-header">
     <div class="sidebarlogooff"> <img src="images/logo-white.svg" alt="logo" class="sidewhitelogo"> <img src="images/logo-black.svg" alt="logo" class="sidedarklogo"> </div>
@@ -237,23 +220,14 @@
     </div>
   </div>
 </section>
-<div class="container-full">
-  <div class="rows">
-    <div class="col-lg-12">
-      <div class="mapblock">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113874.29338087817!2d75.72051791246247!3d26.885346595411875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1658129308806!5m2!1sen!2sin"></iframe>
-      </div>
-    </div>
-  </div>
-</div>
 <footer class="footer-design-sw pt80 pb30 bkbg2 footerbg1 black-bg-1">
   <div class="container index-up">
     <div class="row justify-content-between">
       <div class="col-lg-4">
         <div class="footer-brand-info">
           <div class="footer-logo-sw"> <a href="#"><img src="images/new-logo-white.svg" alt="logo" class="light"></a> <a href="#"><img src="images/new-logo.svg" alt="logo" class="dark"></a> </div>
-          <div class="contactinkediv mt50"> <span class="linktitle">Send Us an Email:</span> <a href="mailto:kushwahsuraj4077@gmail.com"><span class="__cf_email__" >kushwahsuraj4077@gmail.com</span></a> </div>
-          <div class="contactinkediv mt30"> <span class="linktitle">Give Us a Call:</span> <a href="tel:+918819805063">91 881 9805 063</a> </div>
+          <div class="contactinkediv mt50"> <span class="linktitle">Send Us an Email:</span> <a href="/cdn-cgi/l/email-protection#5b32353d341b22342e292c3e3928322f3e75383436"><span class="__cf_email__" data-cfemail="d8b1b6beb798a1b7adaaafbdbaabb1acbdf6bbb7b5">[email&#160;protected]</span></a> </div>
+          <div class="contactinkediv mt30"> <span class="linktitle">Give Us a Call:</span> <a href="tel:+911234567900">91 123 4567 890</a> </div>
           <div class="social-link-sw mt40"> <span class="linktitle">Follow Us</span>
             <ul class="footer-social-sw mt10 sw-hover-2">
               <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -271,12 +245,12 @@
             <div class="footer-links">
               <h5 class="linktitle">Company Links</h5>
               <ul class="mt20">
-                <li><a href="./about_us.html">About Us</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Careers</a></li>
-                <!-- <li><a href="#">Our Team</a></li> -->
-                <!-- <li><a href="#">Media Coverage</a></li> -->
-                <!-- <li><a href="#">Referral Program</a></li> -->
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Media Coverage</a></li>
+                <li><a href="#">Referral Program</a></li>
               </ul>
             </div>
           </div>
@@ -284,7 +258,6 @@
             <div class="footer-links">
               <h5 class="linktitle">Technologies</h5>
               <ul class="mt20">
-                <li><a href="#">Shopify</a></li>
                 <li><a href="#">React JS</a></li>
                 <li><a href="#">Laravel</a></li>
                 <li><a href="#">CodeIgniter</a></li>
@@ -300,11 +273,10 @@
               <ul class="mt20">
                 <li><a href="#">Web Application</a></li>
                 <li><a href="#">Mobile App Development</a></li>
-                <!-- <li><a href="#">Microsoft Development</a></li> -->
+                <li><a href="#">Microsoft Development</a></li>
                 <li><a href="#">Front End Development</a></li>
-                <li><a href="#">Beckend Development</a></li>
                 <li><a href="#">eCommerce Development</a></li>
-                <!-- <li><a href="#">Cross-platform App</a></li> -->
+                <li><a href="#">Cross-platform App</a></li>
               </ul>
             </div>
           </div>
@@ -316,11 +288,11 @@
         <div class="col-lg-12">
           <div class="footercreditnote sw-hover-1">
             <div>
-              <p>© 2024 All Rights Reserved By <a href="#"> Web Crafter Digital Agency</a></p>
+              <p>© 2023 All Rights Reserved By <a href="#"> Brilliant Success</a></p>
             </div>
             <div class="linkftsw">
               <ul class="list-h-styled">
-                <!-- <li><a href="#">Sitemap</a></li> -->
+                <li><a href="#">Sitemap</a></li>
                 <li><a href="#">Terms of Use</a></li>
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
@@ -335,6 +307,7 @@
 <script src="js/bootstrap.bundle.min.js"></script> 
 <script src="js/blueket.plugin.js"></script> 
 <script src="js/theme.darkmode.js"></script> 
+<script src="js/preloader.js"></script> 
 <script src="js/particles.min.js"></script> 
 <script src="assets/js/jquery.validate.min.js"></script> 
 <script src="assets/js/sweetalert2.all.min.js"></script> 
