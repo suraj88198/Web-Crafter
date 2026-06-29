@@ -2789,10 +2789,10 @@ footer {
 }
 
 .linktitle {
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 25px;
-    opacity: .8;
+    opacity: .7;
     display: block;
 }
 
@@ -3518,7 +3518,7 @@ a.btgs {
 }
 
 .sidebarlogooff img {
-    max-width: 150px;
+    max-width: 220px;
     height: auto;
 }
 

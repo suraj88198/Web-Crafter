@@ -726,6 +726,7 @@
 
     .uniqpont {
         grid-gap: 15px;
+        flex-direction: column;
     }
 
     .icondiv {
